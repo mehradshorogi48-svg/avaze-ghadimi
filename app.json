@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "آواز قدیمی",
+    "slug": "avaz-ghadimi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.amir.avazghadimi",
+      "versionCode": 1
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "اجازه ضبط صدا لازم نیست؛ این برنامه فقط موسیقی پخش می‌کند."
+        }
+      ]
+    ]
+  }
+}
